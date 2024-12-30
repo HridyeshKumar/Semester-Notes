@@ -2,7 +2,7 @@
 *********************************************************************************************
 * File: index.html
 * Author: Madhurima Rawat
-* Date: July 18, 2024
+* Date: December 08, 2024
 * Description: Study resources website showing the content of my semester notes repository.
 *              It also features a dynamic color-changing dropdown menu using JavaScript.
 * Version: 1.0
@@ -35,6 +35,7 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
     <link href="https://fonts.googleapis.com/css2?family=Times+New+Roman:wght@400;700&display=swap" rel="stylesheet" />
 
+    <link rel="icon" href="images/Book_Logo.jpg" type="image/jpeg">
     <title>Study Materials</title>
 </head>
 
@@ -66,6 +67,7 @@
                         <a class="dropdown-item" href="#4-sem">4 Semester</a>
                         <a class="dropdown-item" href="#5-sem">5 Semester</a>
                         <a class="dropdown-item" href="#6-sem">6 Semester</a>
+                        <a class="dropdown-item" href="#7-sem">7 Semester</a>
                     </div>
                 </li>
                 <li class="nav-item dropdown">
@@ -100,6 +102,14 @@
                             Fraud Detection</a>
                         <a class="dropdown-item" href="https://madhurimarawat.github.io/Portfolio-Website/">Portfolio
                             Website</a>
+                        <a class="dropdown-item" href="https://csvtu-gpt-question-answer.streamlit.app/">CSVTU-GPT</a>
+                        <a class="dropdown-item"
+                            href="https://stock-market-numerical-text-hybrid-prediction.streamlit.app/">Stock Market
+                            Prediction</a>
+                        <a class="dropdown-item" href="https://madhurimarawat.github.io/CodeCulture-Daily/">CodeCulture
+                            Daily</a>
+                        <a class="dropdown-item" href="https://madhurimarawat.github.io/NameBlock-Designer/">NameBlock
+                            Designer</a>
                     </div>
                 </li>
 
@@ -267,7 +277,7 @@
                         </div>
                     </div>
                 </div>
-                <div class="row" id="contentRow_1">
+                <div class="row" id="centerRow_1">
                     <!-- Additional subjects for 1st semester -->
                     <div class="col-md-4" id="pels-card">
                         <div class="card">
@@ -441,11 +451,11 @@
                             </div>
                         </div>
                     </div>
-                    <div class="col-md-4" id="ip-card">
+                    <div class="col-md-4" id="ipr-card">
                         <div class="card">
                             <div class="card-body">
-                                <h5><i class="fas fa-flask"></i> Independent Project</h5>
-                                <p>Exploring new ideas and developing innovative projects independently.</p>
+                                <h5><i class="fas fa-book-open"></i> Independent Project</h5>
+                                <p>Developed and deployed a responsive library management system frontend.</p>
                                 <a href="https://github.com/madhurimarawat/Semester-Notes/tree/main/3 SEMESTER/Independent Project"
                                     target="_blank" class="tool-button">View
                                     Notes</a>
@@ -617,7 +627,7 @@
                     <div class="col-md-4" id="prml-card">
                         <div class="card">
                             <div class="card-body">
-                                <h5 class="card-title"><i class="fas fa-brain"></i> Pattern
+                                <h5 class="card-title"><i class="fas fa-wave-square"></i> Pattern
                                     Recognition and
                                     Machine Learning</h5>
                                 <p>Study of machine learning concepts and algorithms.</p>
@@ -631,14 +641,84 @@
                     <div class="col-md-4" id="vt-card">
                         <div class="card">
                             <div class="card-body">
-                                <h5 class="card-title"><i class="fas fa-tasks"></i> Vocational
+                                <h5 class="card-title"><i class="fas fa-sliders-h"></i> Vocational
                                     Training</h5><br>
-                                <p>Practical skills and training for specific trades and professions.</p>
+                                <p>Built a Streamlit app for machine learning with hyperparameter tuning.</p>
                                 <a href="https://github.com/madhurimarawat/Semester-Notes/tree/main/5 SEMESTER/Vocational Training"
-                                    target="_blank" class="tool-button">View Notes</a>
+                                    target="_blank" class="tool-button">View Documents</a>
                                 <a href="https://github.com/madhurimarawat/Final-Internship-Project" target="_blank"
                                     class="tool-button_2">Lab
                                     Project</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <!-- Additional project for 7th semester -->
+                    <div class="col-md-4" id="ann-card">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title"><i class="fas fa-brain"></i> Artificial Neural Networks</h5>
+                                <br>
+                                <p>Focus on the brain-inspired computational approach.</p>
+                                <a href="https://github.com/madhurimarawat/Semester-Notes/tree/main/5%20SEMESTER/AI%20Subjects/Artificial Neural Networks"
+                                    target="_blank" class="tool-button">View Notes</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4" id="pma-card">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title"><i class="fas fa-table"></i> Predictive Modelling and
+                                    Analytics
+                                </h5>
+                                <p>Centered on analyzing data trends to forecast outcomes.</p>
+                                <a href="https://github.com/madhurimarawat/Semester-Notes/tree/main/5%20SEMESTER/AI%20Subjects/Predictive Modelling and Analytics"
+                                    target="_blank" class="tool-button">View Notes</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4" id="mp5-card">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title"><i class="fas fa-robot"></i> Minor Project</h5>
+                                <br>
+                                <p>Developed a CSVTU GPT trained on web-scraped data from CSVTU
+                                    website.</p>
+                                <a href="https://github.com/madhurimarawat/CSVTU-GPT/tree/main/Documents"
+                                    target="_blank" class="tool-button">View Documents</a>
+                                <a href="https://csvtu-gpt-question-answer.streamlit.app/" target="_blank"
+                                    class="tool-button_2">Lab
+                                    Project</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+    </section>
+
+    <!-- 6th Semester -->
+    <section id="6-sem">
+        <div class="container mt-5">
+            <div class="semester-box">
+                <h2>6 Semester</h2>
+                <br>
+                <div class="row" id="centerRow_2">
+                    <!-- Subjects for 6 semester -->
+                    <div class="col-md-4" id="intern-card">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5><i class="fas fa-briefcase"></i> Internship</h5>
+                                <p>Gained professional skills and industry experience at <b>IIT Bhilai</b>, working on
+                                    anomaly
+                                    detection for the <b>BSP</b> project at
+                                    BRM.</p>
+                                <a href="https://github.com/madhurimarawat/Semester-Notes/tree/main/6 SEMESTER"
+                                    target="_blank" class="tool-button">View Documents</a>
                             </div>
                         </div>
                     </div>
@@ -647,26 +727,145 @@
         </div>
     </section>
 
-    <!-- 1st Semester -->
-    <section id="6-sem">
+
+    <!-- 7th Semester -->
+    <section id="7-sem">
         <div class="container mt-5">
             <div class="semester-box">
-                <h2>6 Semester</h2>
+                <h2>7 Semester</h2>
                 <br>
-                <div class="row" id="contentRow_2">
-                    <!-- Subjects for 6 semester -->
-                    <div class="col-md-4" id="intern-card">
+                <div class="row">
+                    <!-- Subjects for 7th semester -->
+                    <div class="col-md-4" id="agt-card">
                         <div class="card">
                             <div class="card-body">
-                                <h5><i class="fas fa-briefcase"></i> Internship</h5>
-                                <p>Developing professional skills and gaining industry experience.</p>
-                                <a href="https://github.com/madhurimarawat/Semester-Notes/tree/main/6 SEMESTER"
+                                <h5 class="card-title"><i class="fas fa-chess"></i> Algorithmic Gaming Theory</h5>
+                                <p>Study of strategic decision-making and optimization models.</p>
+                                <a href="https://github.com/madhurimarawat/Semester-Notes/tree/main/7 SEMESTER/Algorithmic Gaming Theory"
                                     target="_blank" class="tool-button">View Notes</a>
                             </div>
                         </div>
                     </div>
+                    <div class="col-md-4" id="bda-card">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title"><i class="fas fa-chart-bar"></i> Big Data Analytics</h5>
+                                <p>Analyzing large datasets to extract valuable insights and trends.</p>
+                                <a href="https://github.com/madhurimarawat/Semester-Notes/tree/main/7 SEMESTER/Big Data Analytics"
+                                    target="_blank" class="tool-button">View Notes</a>
+                                <a href="https://github.com/madhurimarawat/Big-Data-Analytics" target="_blank"
+                                    class="tool-button_2">View Labwork</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4" id="dw-card">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title"><i class="fas fa-cogs"></i> Data Wrangling</h5>
+                                <p>Cleaning and transforming raw data into a structured format for analysis.</p>
+                                <a href="https://github.com/madhurimarawat/Semester-Notes/tree/main/7 SEMESTER/Data Wrangling"
+                                    target="_blank" class="tool-button">View Notes</a>
+                                <a href="https://github.com/madhurimarawat/Data-Wrangling" target="_blank"
+                                    class="tool-button_2">View Labwork</a>
+                            </div>
+                        </div>
+                    </div>
                 </div>
+
+                <div class="row">
+                    <!-- Additional subjects for 7th semester -->
+                    <div class="col-md-4" id="ip-card">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title"><i class="fas fa-image"></i> Image Processing</h5>
+                                <br>
+                                <p>Manipulating and analyzing images to extract information.
+                                </p>
+                                <a href="https://github.com/madhurimarawat/Semester-Notes/tree/main/7 SEMESTER/Image Processing"
+                                    target="_blank" class="tool-button">View Notes</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4" id="mis-card">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title"><i class="fas fa-laptop-code"></i>
+                                    Management Information System
+                                </h5>
+                                <p>Study of data-driven organizational decision-making systems.</p>
+                                <a href="https://github.com/madhurimarawat/Semester-Notes/tree/main/7 SEMESTER/Management Information System"
+                                    target="_blank" class="tool-button">View Notes</a>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-4" id="se-card">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title"><i class="fas fa-code"></i> Software Engineering</h5><br>
+                                <p>Designing, developing, and maintaining software solutions using engineering
+                                    .</p>
+                                <a href="https://github.com/madhurimarawat/Semester-Notes/tree/main/7 SEMESTER/Software Engineering"
+                                    target="_blank" class="tool-button">View Notes</a>
+                                <a href="https://github.com/madhurimarawat/Software-Engineering" target="_blank"
+                                    class="tool-button_2">View Labwork</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="row">
+                    <!-- Additional subjects for 7th semester -->
+
+                    <div class="col-md-4" id="bia-card">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title"><i class="fas fa-industry"></i> Business Intelligence and
+                                    Analytics</h5>
+                                <p>The study of using data analysis and tools to inform business strategies and
+                                    decisions.</p>
+                                <a href="https://github.com/madhurimarawat/Semester-Notes/tree/main/7%20SEMESTER/AI%20Subjects/Business%20Intelligence%20and%20Analytics"
+                                    target="_blank" class="tool-button">View Notes</a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-md-4" id="isr-card">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title"><i class="fas fa-satellite-dish"></i> Intelligent System and
+                                    Robotics
+                                </h5>
+                                <p>Exploring AI-powered systems and robotic mechanisms for automation and
+                                    decision-making.</p>
+                                <a href="https://github.com/madhurimarawat/Semester-Notes/tree/main/7%20SEMESTER/AI%20Subjects/Intelligen%20%20System%20and%20Robotics"
+                                    target="_blank" class="tool-button">View Notes</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <!-- Additional project for 7th semester -->
+
+                    <div class="col-md-4" id="mp7-card">
+                        <div class="card">
+                            <div class="card-body">
+                                <h5 class="card-title"><i class="fas fa-chart-area"></i> Minor Project</h5>
+                                <br>
+                                <p>Built a stock prediction system with a hybrid model, real-time Grafana visualization,
+                                    and InfluxDB for storage.</p>
+                                <a href="https://github.com/madhurimarawat/Stock-Market-Prediction/tree/main/Documents"
+                                    target="_blank" class="tool-button">View Documents</a>
+                                <a href="https://stock-market-numerical-text-hybrid-prediction.streamlit.app/"
+                                    target="_blank" class="tool-button_2">Lab
+                                    Project</a>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+
             </div>
+        </div>
         </div>
     </section>
 
